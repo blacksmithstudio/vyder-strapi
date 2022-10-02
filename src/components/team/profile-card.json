@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_team_profile_cards",
+  "info": {
+    "displayName": "profileCard",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pircture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "socials": {
+      "displayName": "socials",
+      "type": "component",
+      "repeatable": true,
+      "component": "team.socials"
+    }
+  }
+}

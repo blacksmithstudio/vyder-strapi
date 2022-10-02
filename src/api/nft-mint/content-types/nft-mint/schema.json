@@ -1,0 +1,79 @@
+{
+  "kind": "singleType",
+  "collectionName": "nft_mints",
+  "info": {
+    "singularName": "nft-mint",
+    "pluralName": "nft-mints",
+    "displayName": "nftMint",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "paragraph": {
+      "type": "richtext"
+    },
+    "carouselTitle": {
+      "type": "string"
+    },
+    "carouselImagesList": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "leftImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "rightImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ecleraysNft": {
+      "displayName": "subComponent",
+      "type": "component",
+      "repeatable": false,
+      "component": "ntf-mint.sub-component"
+    },
+    "middleContent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ntf-mint.sub-component"
+    },
+    "leftContent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ntf-mint.sub-component"
+    },
+    "rightContent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ntf-mint.sub-component"
+    }
+  }
+}

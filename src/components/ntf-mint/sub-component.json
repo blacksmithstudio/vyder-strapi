@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ntf_mint_sub_components",
+  "info": {
+    "displayName": "subComponent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    }
+  }
+}
