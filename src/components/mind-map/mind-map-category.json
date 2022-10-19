@@ -26,9 +26,28 @@
       ]
     },
     "color": {
-      "type": "customField",
-      "required": true,
-      "customField": "plugin::color-picker.color"
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "buttonIcon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "textColor": {
+      "type": "string",
+      "required": true
     }
   }
 }
