@@ -4,7 +4,7 @@
   "info": {
     "singularName": "nft-mint",
     "pluralName": "nft-mints",
-    "displayName": "nftMint",
+    "displayName": "NftMint",
     "description": ""
   },
   "options": {
@@ -13,24 +13,12 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "text"
+      "type": "text",
+      "default": "wen mint?",
+      "required": true
     },
-    "paragraph": {
+    "content": {
       "type": "richtext"
-    },
-    "carouselTitle": {
-      "type": "string"
-    },
-    "carouselImagesList": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
     },
     "leftImage": {
       "type": "media",
@@ -54,26 +42,27 @@
         "audios"
       ]
     },
-    "ecleraysNft": {
+    "price": {
       "displayName": "subComponent",
       "type": "component",
       "repeatable": false,
       "component": "ntf-mint.sub-component"
     },
-    "middleContent": {
+    "nft": {
       "type": "component",
       "repeatable": false,
       "component": "ntf-mint.sub-component"
     },
-    "leftContent": {
+    "date": {
       "type": "component",
       "repeatable": false,
       "component": "ntf-mint.sub-component"
     },
-    "rightContent": {
+    "carousel": {
+      "displayName": "carousel",
       "type": "component",
       "repeatable": false,
-      "component": "ntf-mint.sub-component"
+      "component": "ntf-mint.carousel"
     }
   }
 }

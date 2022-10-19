@@ -4,7 +4,7 @@
   "info": {
     "singularName": "universe",
     "pluralName": "universes",
-    "displayName": "universe",
+    "displayName": "Universe",
     "description": ""
   },
   "options": {
@@ -12,23 +12,16 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "firstParagraph": {
-      "type": "richtext"
+    "title": {
+      "type": "string",
+      "default": "the vyder",
+      "required": true
     },
-    "secondParagraph": {
-      "type": "richtext"
-    },
-    "thirdParagraph": {
-      "type": "richtext"
-    },
-    "firstTitle": {
-      "type": "string"
-    },
-    "secondTitle": {
-      "type": "string"
-    },
-    "thirdTitle": {
-      "type": "string"
+    "section": {
+      "displayName": "section",
+      "type": "component",
+      "repeatable": true,
+      "component": "universe.section"
     }
   }
 }

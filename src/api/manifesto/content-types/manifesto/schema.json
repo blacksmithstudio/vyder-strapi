@@ -4,7 +4,7 @@
   "info": {
     "singularName": "manifesto",
     "pluralName": "manifestos",
-    "displayName": "manifesto",
+    "displayName": "Manifesto",
     "description": ""
   },
   "options": {
@@ -13,9 +13,11 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "default": "manifesto",
+      "required": true
     },
-    "paragraph": {
+    "content": {
       "type": "richtext"
     },
     "picture": {

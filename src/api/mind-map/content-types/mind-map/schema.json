@@ -4,7 +4,7 @@
   "info": {
     "singularName": "mind-map",
     "pluralName": "mind-maps",
-    "displayName": "mindMap",
+    "displayName": "MindMap",
     "description": ""
   },
   "options": {
@@ -13,35 +13,21 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "default": "mindmap",
+      "required": true
     },
-    "paragraph": {
-      "type": "richtext"
+    "content": {
+      "type": "richtext",
+      "required": true
     },
-    "gaming": {
+    "roadmaps": {
       "type": "component",
-      "repeatable": false,
-      "component": "mind-map.mind-map-category"
-    },
-    "experiences": {
-      "type": "component",
-      "repeatable": false,
-      "component": "mind-map.mind-map-category"
-    },
-    "identity": {
-      "type": "component",
-      "repeatable": false,
-      "component": "mind-map.mind-map-category"
-    },
-    "community": {
-      "type": "component",
-      "repeatable": false,
-      "component": "mind-map.mind-map-category"
-    },
-    "universe": {
-      "type": "component",
-      "repeatable": false,
-      "component": "mind-map.mind-map-category"
+      "repeatable": true,
+      "component": "mind-map.mind-map-category",
+      "max": 5,
+      "min": 1,
+      "required": true
     }
   }
 }

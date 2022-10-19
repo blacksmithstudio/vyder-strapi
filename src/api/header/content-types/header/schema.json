@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "headers",
+  "info": {
+    "singularName": "header",
+    "pluralName": "headers",
+    "displayName": "Header"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "universe": {
+      "type": "string",
+      "default": "universe",
+      "required": true
+    },
+    "nftMint": {
+      "type": "string",
+      "default": "nft mint",
+      "required": true
+    },
+    "manifesto": {
+      "type": "string",
+      "default": "manifesto",
+      "required": true
+    },
+    "vision": {
+      "type": "string",
+      "default": "vision",
+      "required": true
+    },
+    "mindmap": {
+      "type": "string",
+      "default": "mindmap",
+      "required": true
+    },
+    "faq": {
+      "type": "string",
+      "default": "faq",
+      "required": true
+    },
+    "team": {
+      "type": "string",
+      "default": "team",
+      "required": true
+    },
+    "connectWallet": {
+      "type": "string",
+      "default": "Connect Wallet",
+      "required": true
+    }
+  }
+}

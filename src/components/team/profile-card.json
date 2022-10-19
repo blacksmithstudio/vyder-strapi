@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "pircture": {
+    "picture": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -21,10 +21,10 @@
     "name": {
       "type": "string"
     },
-    "title": {
+    "role": {
       "type": "string"
     },
-    "description": {
+    "about": {
       "type": "richtext"
     },
     "socials": {
