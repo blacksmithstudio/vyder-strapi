@@ -1,23 +1,23 @@
 {
   "collectionName": "components_ntf_mint_carousels",
   "info": {
-    "displayName": "carousel"
+    "displayName": "carousel",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
+      "required": true,
+      "default": "sneak peaks"
     },
     "images": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
       "type": "media",
-      "multiple": true
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

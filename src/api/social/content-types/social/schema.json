@@ -4,7 +4,8 @@
   "info": {
     "singularName": "social",
     "pluralName": "socials",
-    "displayName": "Social"
+    "displayName": "Social",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,11 +17,12 @@
       "required": true
     },
     "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

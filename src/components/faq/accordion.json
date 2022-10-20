@@ -2,15 +2,18 @@
   "collectionName": "components_faq_accordions",
   "info": {
     "displayName": "accordion",
-    "icon": "angle-double-down"
+    "icon": "angle-double-down",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     }
   }
 }

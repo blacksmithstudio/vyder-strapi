@@ -9,11 +9,11 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": false
+      "required": true
     },
     "subTitle": {
       "type": "string",
-      "required": false
+      "required": true
     },
     "content": {
       "type": "richtext",
@@ -24,10 +24,7 @@
       "multiple": false,
       "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     }
   }

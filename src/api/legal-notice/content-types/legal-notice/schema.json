@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "teams",
+  "collectionName": "legal_notices",
   "info": {
-    "singularName": "team",
-    "pluralName": "teams",
-    "displayName": "Team",
-    "description": ""
+    "singularName": "legal-notice",
+    "pluralName": "legal-notices",
+    "displayName": "legalNotice"
   },
   "options": {
     "draftAndPublish": true
@@ -14,8 +13,8 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true,
-      "default": "team"
+      "default": "legal notice",
+      "required": true
     },
     "content": {
       "type": "richtext",
