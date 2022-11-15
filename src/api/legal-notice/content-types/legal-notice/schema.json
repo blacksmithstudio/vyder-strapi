@@ -11,6 +11,12 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo",
+      "required": true
+    },
     "title": {
       "type": "string",
       "default": "legal notice",
