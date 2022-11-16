@@ -23,6 +23,12 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "orderId": {
+      "type": "integer",
+      "required": true,
+      "unique": true,
+      "min": 1
     }
   }
 }

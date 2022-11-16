@@ -36,6 +36,12 @@
       "type": "component",
       "repeatable": true,
       "component": "team.socials"
+    },
+    "orderId": {
+      "type": "integer",
+      "required": true,
+      "unique": true,
+      "min": 1
     }
   }
 }
