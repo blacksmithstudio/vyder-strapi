@@ -6,8 +6,7 @@
   "scripts": {
     "develop": "NODE_ENV=development ENV_PATH=./.development.env strapi develop",
     "develop:prod": "NODE_ENV=production ENV_PATH=./.production.env strapi develop",
-    "start": "NODE_ENV=development ENV_PATH=./.development.env strapi start",
-    "start:prod": "NODE_ENV=production ENV_PATH=./.production.env strapi start",
+    "start": "strapi start",
     "build": "NODE_ENV=development ENV_PATH=./.development.env strapi build",
     "build:prod": "NODE_ENV=production ENV_PATH=./.production.env strapi build",
     "strapi": "NODE_ENV=development ENV_PATH=./.development.env  strapi",
