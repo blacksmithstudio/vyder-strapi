@@ -4,7 +4,7 @@ module.exports = {
       name: "vyder-strapi", // Your project name
       cwd: "/home/ubuntu/vyder-strapi", // Path to your project
       script: "npm", // For this example we're using npm, could also be yarn
-      args: "start", // Script to start the Strapi server, `start` by default
+      args: "start:prod", // Script to start the Strapi server, `start` by default
       env: {
         NODE_ENV: "production",
         DATABASE_HOST: process.env.DATABASE_HOST, // database Endpoint under 'Connectivity & Security' tab
